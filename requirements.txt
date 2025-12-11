@@ -1,6 +1,6 @@
-tensorflow
-numpy
+tensorflow==2.12.0
+numpy==1.23.5
 nltk
-pickle
+pickle-mixin
 pandas
-scikit-learn
+scikit-learn==1.2.2
