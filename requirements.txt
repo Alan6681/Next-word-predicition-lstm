@@ -4,3 +4,5 @@ nltk
 pickle-mixin
 pandas
 scikit-learn==1.2.2
+streamlit
+git a
