@@ -5,7 +5,7 @@ from tensorflow.keras.preprocessing.sequence import pad_sequences
 from tensorflow.keras.models import load_model
 
 # Load the trained model and tokenizer
-model = load_model("next_word_lstm.h5")
+model = load_model("next_word_lstm.keras")
 
 with open("tokenizer.pickle", "rb") as handle:
     tokenizer = pickle.load(handle)
